@@ -1,0 +1,15 @@
+#navbar {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-top: 1rem; */
+}
+#nav-heading {
+    margin-left: 2rem
+}
+#back-button {
+    background: transparent;
+    padding-top: 0;
+    border: none;
+    scale: 1.5;
+}

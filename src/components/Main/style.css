@@ -1,0 +1,119 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+#selector-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+#dropdown {
+    border: none;
+    font-size: .9rem;
+}
+#menu-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: .25rem;
+}
+.dishcard-container {
+    /* width: 110%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    border-bottom: .5px solid #d6d6d6ce;
+}
+
+.dishcard-left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dishcard-right-container {
+    margin-left: 2rem;
+}
+
+.dishcard-description {
+    font-size: .8rem;
+    color: #707070;
+    padding: 1rem 0;
+    word-wrap: break-word;
+}
+
+
+.dishcard-name {
+    display: flex;
+}
+.dishcard-heading {
+    color: #1c1c1c;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.dishcard-rating {
+    height: min-content;
+    align-self: center;
+
+    display: flex;
+    align-items: center;
+    font-size: .6rem;
+    margin-left: 1rem;
+    background-color: #51C452;
+    border: none;
+    color: white;
+
+    border-radius: 10%;
+}
+.dishcard-rating > img {
+    margin-left: .2rem;
+    height: .4rem;
+}
+
+.dish-contents {
+    display: flex;
+    font-size: 10px;
+}
+
+.dish-equipments {
+    display: flex;
+    border-right: .5px solid #d6d6d6ce;
+}
+.dish-equipment {
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dish-equipment > p {
+    margin: 0;
+}
+.dishcard-ingredients-button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.dishcard-ingredients-button > a {
+    display: block;
+    text-decoration: none;
+    color: #FF8800;
+}
+.dishcard-ingredients-button > a::after {
+    content: ">";
+}
+.dishcard-image {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: auto;
+
+}
